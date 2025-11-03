@@ -127,17 +127,15 @@ Here are some screenshots of the working application:
 
 
 
+###  Building Knowledge Base
 
-\\### 📂 Building Knowledge Base
-
-!\\\[Build Base](assets/vector.png)
-
+!\[Build Base](assets/vector.png)
 
 
-\\### 💬 Asking Questions
 
-!\\\[Ask Question](assets/output.png)
+\###  Asking Questions
 
+!\[Ask Question](assets/output.png)
 
 
 
