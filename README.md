@@ -90,44 +90,6 @@ pip install -r requirements.txt
 
 
 
----
-
-
-
-\## Run
-
-
-
-```bash
-
-streamlit run app.py
-
-
-
-
-
----
-
-
-
-\## How to Use
-
-
-
-1\. Upload one or more PDF or TXT files in the sidebar  
-
-2\. Click “Build Knowledge Base”  
-
-3\. Type a question related to the uploaded files  
-
-4\. The chatbot will answer using a local LLM through Ollama  
-
-
-
----
-
-
-
 \## Demo
 
 
@@ -145,38 +107,6 @@ Here are some screenshots of the working application:
 \### Asking Questions
 
 !\[Ask Question](./assets/output.png)
-
-
-
----
-
-
-
-\## Notes
-
-
-
-\- The first run will download the embedding model `all-MiniLM-L6-v2`  
-
-\- Chroma will create a `storage/` directory for the vector database  
-
-\- If you change the documents, delete `storage/` and rebuild  
-
-\- Everything runs locally through Ollama  
-
-
-
----
-
-
-
-\## License
-
-
-
-This project is licensed under the \[MIT License](./LICENSE).
-
-
 
 
 
