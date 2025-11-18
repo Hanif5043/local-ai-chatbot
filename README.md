@@ -102,13 +102,10 @@ Here are some screenshots of the working application:
 
 \### Building Knowledge Base
 
-!\[Build Base](./assets/vector.png)
-
-
-
 \### Asking Questions
 
-!\[Ask Question](./assets/output.png)
+![Build Base](assets/vector.png)
+![Ask Question](assets/output.png)
 
 
 
