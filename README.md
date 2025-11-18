@@ -10,8 +10,6 @@ This app lets a user
 
 The goal is to show a simple but complete Retrieval Augmented Generation pipeline that anyone can run on Windows.
 
-***
-
 ## Features
 
 1. Local model through Ollama (tested with `llama3`)  
@@ -22,8 +20,6 @@ The goal is to show a simple but complete Retrieval Augmented Generation pipelin
 6. Works in a virtual environment  
 7. Good starter project for machine learning or data science portfolios  
 
-***
-
 ## Prerequisites
 
 1. Windows 10 or 11  
@@ -32,23 +28,25 @@ The goal is to show a simple but complete Retrieval Augmented Generation pipelin
 3. Python 3.12 or newer  
 4. Git  
 
-***
-
 ## Setup
 
-```bash
-git clone https://github.com/Hanif5043/local-ai-chatbot.git
-cd local-ai-chatbot
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
----
+Run these commands in PowerShell in order  
 
+1. `git clone https://github.com/Hanif5043/local-ai-chatbot.git`  
+2. `cd local-ai-chatbot`  
+3. `python -m venv venv`  
+4. `venv\Scripts\activate`  
+5. `pip install -r requirements.txt`  
 
+## Running the app
+
+1. Activate the virtual environment if it is not already active  
+2. Run `streamlit run app.py`  
+3. Open the link shown in the terminal, usually `http://localhost:8501`  
 
 ## Demo
 
-Here are some screenshots of the working application.
+Here are some screenshots of the working application  
 
 ### Building Knowledge Base
 
@@ -57,9 +55,3 @@ Here are some screenshots of the working application.
 ### Asking Questions
 
 ![Ask Question](assets/output.png)
-
-
-
-
-
-
